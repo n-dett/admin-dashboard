@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+ul {
+    list-style: none;
+}
+
+#sidebar {
+    color: white;
+    background-color: rgb(60, 157, 236);
+    /* width: 200px; */
+    padding: 20px;
+}
+
+#main-content {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+#header {
+    background-color: white;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#projects {
+    background-color: rgb(235, 239, 255);
+    grid-row: 2;
+}
+
+#header-row-1 {
+    grid-row: 1;
+    display: grid;
+    align-items: center;
+}
+
+
+input {
+    grid-column: 1;
+    display: block;
+    height: 20px;
+}
+
+#username-small {
+    grid-column: 2;
+}
+
+#header-row-2 {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+#user-welcome {
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+}
+
+#action-buttons {
+    grid-column: 2;
+    justify-self: self-end;
+}
+
+button {
+    border: none;
+    background-color: rgb(60, 157, 236);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
+
+#user-avatar-large {
+    width: 70px;
+    grid-column: 1;
+    justify-self: self-end;
+}
+
+#hi-username {
+    grid-column: 2;
+    justify-self: self-start;
+}
+
+
