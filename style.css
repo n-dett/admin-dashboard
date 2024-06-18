@@ -190,7 +190,7 @@ button {
     border-radius: 8px;
     padding: 0 15px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
 }
 
 .section-heading {
@@ -235,7 +235,7 @@ button {
 }
 
 .card-icon {
-    width: 20px;
+    width: 25px;
     align-self: self-end;
     justify-self: end;
 }
@@ -251,6 +251,12 @@ button {
 .card-icons {
     justify-self: self-end;
     align-self: self-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
+
 
 
